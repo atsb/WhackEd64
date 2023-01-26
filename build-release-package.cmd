@@ -1,16 +1,16 @@
-set app_title=WhackEd4
-set app_description=A Windows Dehacked editor.
+set app_title=WhackEd64
+set app_description=A Windows Dehacked64 editor.
 
-set app_name=WhackEd4
-set app_name_lower=whacked4
+set app_name=WhackEd64
+set app_name_lower=whacked64
 
-set app_version=1.3.0-beta2
-set app_version_value=1.3.0
-set app_version_title="1.3.0 beta 2"
+set app_version=1.0.0
+set app_version_value=1.0.0
+set app_version_title="1.0.0"
 
-set build_path=".\build\exe.win-amd64-3.9"
+set build_path=".\build\exe.win-amd64-3.10"
 
-set python_interpreter=py -3
+set python_interpreter=python
 set setup_compiler="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set zip=7za
 

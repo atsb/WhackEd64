@@ -31,6 +31,10 @@
 
 	"dataSegment": 561684,
 
+	"hacks": {
+		"plasmaFlashStateJitter": true
+	},
+
 	"miscData": {
 		"startHealth": {
 			"offsets": [404440],
@@ -301,7 +305,7 @@
 		},
 		"DROPPED": {
 			"name": "Dropped by enemy",
-			"description": "This thing was dropped by an enemy (internal flag)."
+			"description": "This thing was dropped dropped by an enemy (internal flag)."
 		},
 		"SHADOW": {
 			"name": "Draw as shadow",
@@ -767,8 +771,7 @@
 		},
 		"186528": {
 			"description": "Player Plasma Rifle attack.",
-			"name": "FirePlasma",
-      "usesExtraFlashState": true
+			"name": "FirePlasma"
 		},
 		"186832": {
 			"description": "Player Pistol shot.",
@@ -784,8 +787,7 @@
 		},
 		"187312": {
 			"description": "Player Chaingun shot.\n\nAlso checks ammo, does not go to -1 ammo, but changes the weapon instead.",
-			"name": "FireCGun",
-      "usesExtraFlashState": true
+			"name": "FireCGun"
 		},
 		"187520": {
 			"description": "Restore the lighting level after a gun flash.",
